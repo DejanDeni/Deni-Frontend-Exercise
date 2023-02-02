@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input id="fullNameId" type="text" placeholder="Enter your full name" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input id="usernameId" type="text" placeholder="Enter your username" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input id="emailId" type="email" placeholder="Enter your email" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input id="phoneNumberId" type="text" placeholder="Enter your phone number" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input id="passwordId" type="password" placeholder="Enter your passowrd" required />
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input id="confirmPassowrdId" type="password" placeholder="Enter your passowrd again" required />
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <input id="maleInput" type="radio" name="gender" value="male" />
+                        <span class="gender">Male</span>
+                        <input id="femaleInput" type="radio" name="gender" value="famale" />
+                        <span class="gender">Female</span>
+                    </div>
+                </div>
+                <h4 class="errorMessage" id="errorMessage"></h4>
+                <div id="submitButton" class="button">
+                    <input type="submit" value="Register" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

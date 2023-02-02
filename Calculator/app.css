@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, #12c2e9, #42d4c0, #4ff665);
+}
+
+table.tbl{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: rgba(0, 0,0, 0.56) 0px 22px 70px 4px;
+}
+
+input[type="button"]{
+     color: black;
+     cursor: pointer;
+     background-color: white;
+     font-size:2em;
+     border:1px solid white;
+     padding: 20px;
+     width: 100%;
+     margin: 10px 60px 10px 0px
+}
+
+input[type="button"]:hover{
+    background-color: #42d4c0;
+    
+}
+
+input[type="text"]{
+    color:black;
+    background: white;
+    border:1px solid white;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+}
+
+#clear:hover{
+    background-color: #42d4c0;
+
+}
+
+#clear{
+    background-color: rgb(170, 224, 211);
+    border:1px solid white;
+}
+#clear:hover{
+    background-color: #42d4c0;
+}
